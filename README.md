@@ -26,7 +26,7 @@ Sigue estos pasos para instalar y ejecutar la aplicación:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tuusuario/reparaciones-android.git
+    git clone https://github.com/Emprndefast/reparaciones-android.git
     ```
 
 2. Navega a la carpeta del proyecto:
