@@ -1,0 +1,25 @@
+{
+    "name": "ReparacionesAndroid",
+    "version": "1.0.0",
+    "description": "Aplicación para reparaciones Android",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dist": "electron-builder"
+    },
+    "devDependencies": {
+      "electron": "^22.3.27",
+      "electron-builder": "^23.0.0"
+    },
+    "build": {
+      "appId": "com.reparacionesandroid.app",
+      "productName": "ReparacionesAndroid",
+      "files": [
+        "**/*"
+      ],
+      "win": {
+        "target": "nsis"
+      }
+    }
+  }
+  

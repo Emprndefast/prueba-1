@@ -1,0 +1,22 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar builds empaquetados de Electron
+reparaciones-android-win32-x64/
+dist/
+out/
+
+# Archivos de configuración del sistema o logs
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de Electron-builder que no queremos subir
+*.exe
+*.dmg
+*.AppImage
+
+# ADB binarios (si no quieres subirlos)
+adb/
